@@ -18,18 +18,7 @@ budget=[
     5000,
     7000,
 ]
-subs_name=[
-           "SNPS-IPG-GenAI-SCS",
-           "SNPS-OpenAI-BU05",
-           "SNPS-OpenAI-BU06",
-           "SNPS-OpenAI-BU07",
-           "SNPS-OpenAI-BU08",
-           "SNPS-OpenAI-BU09",
-           "SNPS-OpenAI-BU11",
-           "SNPS-OpenAI-SCE-Platform",
-           "SNPS-OpenAI-SCS-Production",
-           "SNPS-TPG-GenAI-SCS-Testing",
-           ]
+subs_name=["SNPS-IPG-GenAI-SCS"]
 subscription_id=[]
 
 for name, id, budget in zip(subs_name, subscription_id, budget):  
