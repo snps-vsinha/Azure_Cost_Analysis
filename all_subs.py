@@ -6,20 +6,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-budget=[
-    3000,
-    13000,
-    20000,
-    20000,
-    20000,
-    20000,
-    20000,
-    40000,
-    5000,
-    7000,
-]
+budget=[3000]
 subs_name=["SNPS-IPG-GenAI-SCS"]
-subscription_id=["<+<+stage.variables.IPG>>"]
+subscription_id=["<+stage.variables.IPG>"]
 
 for name, id, budget in zip(subs_name, subscription_id, budget):  
     '''Code for extracting the daily cost foar each of the subscription'''
