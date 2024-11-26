@@ -30,18 +30,7 @@ subs_name=[
            "SNPS-OpenAI-SCS-Production",
            "SNPS-TPG-GenAI-SCS-Testing",
            ]
-subscription_id=[
-                 "3e12ea24-5aad-4e7f-9716-2a85f83e6a67",
-                 "3607b451-f870-4798-96ce-0a0d50c068df",
-                 "0f1dcccd-f94d-4c63-b56c-ff0cef2bda55",
-                 "7e2d8637-92bb-4baa-bc9a-0aa1a2898df3",
-                 "8f8759d8-e046-4e68-955a-466dfacf2fb8",
-                 "b9500daf-220f-4a5e-8879-964615c68262",
-                 "3375b632-970b-435c-8da1-915d6ab21bd9",
-                 "04e565d9-06d2-4407-b0c8-a7c88d7d6376",
-                 "18749410-8fd7-4f41-a877-0c3b8eab682b",
-                 "f2e546ea-e115-4f59-aa6e-909c163c7969"
-                 ]
+subscription_id=[]
 
 for name, id, budget in zip(subs_name, subscription_id, budget):  
     '''Code for extracting the daily cost foar each of the subscription'''
