@@ -19,7 +19,7 @@ budget=[
     7000,
 ]
 subs_name=["SNPS-IPG-GenAI-SCS"]
-subscription_id=[]
+subscription_id=["<+<+stage.variables.IPG>>"]
 
 for name, id, budget in zip(subs_name, subscription_id, budget):  
     '''Code for extracting the daily cost foar each of the subscription'''
