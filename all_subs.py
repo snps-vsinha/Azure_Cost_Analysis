@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import os
 
 budget=[3000]
-subs_name=["SNPS-IPG-GenAI-SCS"]
-subscription_id=["3e12ea24-5aad-4e7f-9716-2a85f83e6a67"]
+subs_name=["SNPS-OpenAI-SCE-Platform"]
+subscription_id=["04e565d9-06d2-4407-b0c8-a7c88d7d6376"]
 
 for name, id, budget in zip(subs_name, subscription_id, budget):  
     '''Code for extracting the daily cost foar each of the subscription'''
