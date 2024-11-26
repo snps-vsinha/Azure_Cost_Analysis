@@ -8,7 +8,7 @@ import os
 
 budget=[3000]
 subs_name=["SNPS-IPG-GenAI-SCS"]
-subscription_id=["<+stage.variables.IPG>"]
+subscription_id=["3e12ea24-5aad-4e7f-9716-2a85f83e6a67"]
 
 for name, id, budget in zip(subs_name, subscription_id, budget):  
     '''Code for extracting the daily cost foar each of the subscription'''
